@@ -2,13 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from 'react-router-dom';
 import Loadable from "react-loadable";
+import CircularProgress from "@material-ui/core/CircularProgress";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 
 import "./global.css";
 
 const App = Loadable({
   loader: () => import('./container/App'),
-  loading: () => <div style={{textAlign: 'center', marginTop: 'Sem'}}>Cargando...</div>
+  loading: () => <div style={{textAlign: 'center', marginTop: 'Sem'}}><CircularProgress /></div>
 });
 
 const theme = createMuiTheme({
