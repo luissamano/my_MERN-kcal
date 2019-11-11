@@ -48,43 +48,43 @@ Utilizando la arquitectura **MERN** (Mongo, Express, React, Node), crear aplicac
     * *[x] Preparar ambiente para el Cliente (hola mundo en reactjs)
         * Instalar dependencias básicas para correr **Reactjs** usando **Webpack**
 
-* *[ ] **01_ALTA_DE_COMIDA:**
-	* *[ ] **[BACK]** - Crear el modelo de tipo de comida:
+* *[x] **01_ALTA_DE_COMIDA:**
+	* *[x] **[BACK]** - Crear el modelo de tipo de comida:
         * uuid: string
         * value: string
-    * *[ ] **[BACK]** - Crear controlador de alta de catalogo de tipo de comida
-    * *[ ] **[BACK]** - Crear ruta de acceso a la alta de catalogo de tipo de comida (POST)
-    * *[ ] **[BACK]** - Crear controlador de listado de catalogo de tipo de comida
-    * *[ ] **[BACK]** - Crear ruta de acceso al listado de catalogo de tipo de comida (GET)
-    * *[ ] **[BACK]** - Crear el modelo de tipo de alimento
+    * *[x] **[BACK]** - Crear controlador de alta de catalogo de tipo de comida
+    * *[x] **[BACK]** - Crear ruta de acceso a la alta de catalogo de tipo de comida (POST)
+    * *[x] **[BACK]** - Crear controlador de listado de catalogo de tipo de comida
+    * *[x] **[BACK]** - Crear ruta de acceso al listado de catalogo de tipo de comida (GET)
+    * *[x] **[BACK]** - Crear el modelo de tipo de alimento
         * uuid: string
         * label: string
         * kcal: number
         * type: String
-    * *[ ] **[BACK]** - Crear controlador de alta de catalogo de tipo de alimento
-    * *[ ] **[BACK]** - Crear ruta de acceso a la alta de catalogo de tipo de alimento (POST)
-    * *[ ] **[BACK]** - Crear controlador de listado de catalogo de tipo de alimento 
-    * *[ ] **[BACK]** - Crear ruta de acceso al listado de catalogo de tipo de alimento (GET)
-    * *[ ] **[BACK]** - Crear Modelo de comida:
+    * *[x] **[BACK]** - Crear controlador de alta de catalogo de tipo de alimento
+    * *[x] **[BACK]** - Crear ruta de acceso a la alta de catalogo de tipo de alimento (POST)
+    * *[x] **[BACK]** - Crear controlador de listado de catalogo de tipo de alimento 
+    * *[x] **[BACK]** - Crear ruta de acceso al listado de catalogo de tipo de alimento (GET)
+    * *[x] **[BACK]** - Crear Modelo de comida:
         * uuid: String
         * meal: String
         * date: date
         * foods: referencia al catalogo de tipo de comida
         * mealType: referencia al catalogo de tipo de alimento
-    * *[ ] **[BACK]** - Crear controlador de alta de comida
-    * *[ ] **[BACK]** - Crear ruta de acceso para alta de comida (POST)
-    * *[ ] **[FRONT]** - Input de texto para introducir nombre de la comida (Pozole, Menudo, Ceviche, etc).
-    * *[ ] **[FRONT]** - Dropdown que consultara al catalogo de tipo de comida (Desayuno, Comida, Colación, Cena).
-    * *[ ] **[FRONT]** - Datepicker que registra la fecha de consumo.
-    * *[ ] **[FRONT]** - Autocomplete de alimentos utilizados, el cual consultara al catalogo de alimentos (pollo, cebolla, tomates, etc):
+    * *[x] **[BACK]** - Crear controlador de alta de comida
+    * *[x] **[BACK]** - Crear ruta de acceso para alta de comida (POST)
+    * *[x] **[FRONT]** - Input de texto para introducir nombre de la comida (Pozole, Menudo, Ceviche, etc).
+    * *[x] **[FRONT]** - Dropdown que consultara al catalogo de tipo de comida (Desayuno, Comida, Colación, Cena).
+    * *[x] **[FRONT]** - Datepicker que registra la fecha de consumo.
+    * *[x] **[FRONT]** - Autocomplete de alimentos utilizados, el cual consultara al catalogo de alimentos (pollo, cebolla, tomates, etc):
       * Autocomplete component: `https://gist.github.com/oscaroceguera/621a08f64e1b391059d5a0fc6bff1ccd`
       * Autocomplete functions `https://gist.github.com/oscaroceguera/bdf5512e13b399e9b2042dad7078c791`
-    * *[ ] **[FRONT]** - Guardar comida.
+    * *[x] **[FRONT]** - Guardar comida.
     
-* *[ ] **02_LISTADO_COMIDAS:**
-  * *[ ] **[BACK]** - Crear controlador de listado de comidas
-  * *[ ] **[BACK]** - Crear ruta de acceso de listado de comidas (GET)
-  * *[ ] **[FRONT]** - Listado de comidas
+* *[x] **02_LISTADO_COMIDAS:**
+  * *[x] **[BACK]** - Crear controlador de listado de comidas
+  * *[x] **[BACK]** - Crear ruta de acceso de listado de comidas (GET)
+  * *[x] **[FRONT]** - Listado de comidas
 
 * *[ ] **03_ACTUALIZAR_COMIDA:**
   * *[ ] **[BACK]** - Crear controlador para obtener el de detalle de comida
